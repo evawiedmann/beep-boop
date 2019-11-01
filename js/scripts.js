@@ -1,6 +1,6 @@
 // Business Logic
 var splitInput = userInputVal.split('');
-// var userInputVal = $("input#userInput").val();
+var userInputVal = $("input#userInput").val();
 function minusOne(numbers){
   var arrayAnswer = [" "];
   numbers.forEach(function(number) {
