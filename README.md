@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _Beep Boop Machine_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{Brief description of application}, 1 Nov 2019_
 
-#### By _**{List of contributors}**_
+#### By _**Eva Wiedmann**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This program takes a number from the user and returns a range of numbers from 0 to the inputted number. The program excludes_
 
 ## Setup/Installation Requirements
 
@@ -20,27 +20,26 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_ _
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_[Email](mailto:evawiedmann@gmail.com) Eva Wiedmann with any questions, comments, or suggestions. Any feedback is greatly appreciated._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _HTML_
+* _CSS_
+* _JavaScript_
+* _jQuery_
 
-### License
-
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2019 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_Eva Wiedmann_**
 
 ## Specs
 
-* #### The program
-  - Example Input:
-  - Example Output:
+* #### The program returns a range of numbers from 0 to the users inputted number.
+  - Example Input: "4"
+  - Example Output: "0, 1, 2, 3, 4"
 
 * #### The program
   - Example Input:
@@ -54,6 +53,6 @@ Copyright (c) 2019 **_{List of contributors or company name}_**
   - Example Input:
   - Example Output:
 
-* #### The program 
+* #### The program
   - Example Input:
   - Example Output:
