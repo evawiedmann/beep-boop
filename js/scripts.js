@@ -1,5 +1,5 @@
 // Business Logic
-var parsedUserInput = parseInt("#userInput")
+var parsedUserInput = $(parseInt("#userInput"))
 
 if (true) {
 
@@ -12,10 +12,13 @@ if (true) {
 $(document).ready(function () {
   $("form#bbForm").submit(function(event) {
     event.preventDefault();
+    var userInputVal = $("input#userInput").val();
+
+
     $("#answer").show();
     $("#bbForm").hide();
 
-    console.log("#userInput");
+    console.log(userInputVal);
 
-});
+  });
 });
