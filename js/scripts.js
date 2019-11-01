@@ -9,23 +9,23 @@ $(document).ready(function () {
     event.preventDefault();
     var userInputVal = $("input#userInput").val();
     var splitInput = (userInputVal).split('');
-    console.log(splitInput);
 
-if (splitInput.includes("2")===true) {
+    if (splitInput.includes("3")===true) {
 
-  console.log("yes");
-} else {
+      $("#sorry").show();
 
-  console.log("no");
-// if (includesTwo(splitInput)===true) {
-//   console.log("helolo");
-// } else {
-//   console.log("hi");
+    } else if(splitInput.includes("2")===true) {
 
-}
-    // console.log(userInputVal);
+      $("#boop").show();
 
-    // $('#stringInput').text(stringInput);
+    } else if(splitInput.includes("1")===true) {
+
+      $("#beep").show();
+    } else {
+
+      console.log("else");
+
+    }
     $("#output").text(userInputVal);
     $("#answer").show();
     $("#bbForm").hide();
