@@ -1,10 +1,15 @@
 // Business Logic
 var parsedUserInput = parseInt("#userInput")
 
-if (true) {
+// expected output: true
 
+// function Computron
+if (splitInput.includes(2)) {
+
+console.log("yes");
 } else {
 
+console.log("no");
 }
 var stringInput = parsedUserInput.toString();
 var splitInput = (stringInput).split('');
