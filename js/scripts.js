@@ -1,14 +1,22 @@
+// Business Logic
 
+var splitInput = userInputVal.split('');
+var userInputVal = $("input#userInput").val();
 
-// function Computron
+function minusOne(numbers){
+  var arrayAnswer = [" "];
+  numbers.forEach(function(number) {
+    var minOne = number - 1
+    arrayAnswer.push(newNum)
+  })
+  return arrayAnswer
+};
 
 // UI
 
 $(document).ready(function () {
   $("form#bbForm").submit(function(event) {
     event.preventDefault();
-    var userInputVal = $("input#userInput").val();
-    var splitInput = (userInputVal).split('');
 
     if (splitInput.includes("3")===true) {
 
@@ -21,14 +29,13 @@ $(document).ready(function () {
     } else if(splitInput.includes("1")===true) {
 
       $("#beep").show();
+
     } else {
-
-      console.log("else");
-
+      // $("#answer").text(arrayAnswer);
+      $('#output').text(arrayAnswer);
     }
-    $("#output").text(userInputVal);
+
     $("#answer").show();
-    $("#bbForm").hide();
 
   });
 

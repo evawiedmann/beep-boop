@@ -1,3 +1,4 @@
 #answer, #beep, #boop, #sorry {
   display: none;
+  padding: 100px;
 }

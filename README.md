@@ -1,6 +1,6 @@
 # _Beep Boop Machine_
 
-#### _{Brief description of application}, 1 Nov 2019_
+#### _Program that produces varied results depending upon the user's numerical input, 1 Nov 2019_
 
 #### By _**Eva Wiedmann**_
 
@@ -41,17 +41,17 @@ Copyright (c) 2019 **_Eva Wiedmann_**
   - Example Input: "4"
   - Example Output: "0, 1, 2, 3, 4"
 
-* #### The program
-  - Example Input:
-  - Example Output:
+* #### The program returns "Beep!" when user input includes "1".
+  - Example Input: "1"
+  - Example Output: "Beep!"
 
-* #### The program
-  - Example Input:
-  - Example Output:
+* #### The program returns "Boop!" when user input includes "2".
+  - Example Input: "2"
+  - Example Output: "Boop!"
 
-* #### The program
-  - Example Input:
-  - Example Output:
+* ####  The program returns "I'm sorry, Dave. I'm afraid I can't do that." when user input includes "3".
+  - Example Input: "3"
+  - Example Output: "I'm sorry, Dave. I'm afraid I can't do that."
 
 * #### The program
   - Example Input:
