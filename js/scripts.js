@@ -1,15 +1,6 @@
-// Business Logic
-
 
 
 // function Computron
-// if (splitInput.includes("2")) {
-
-// console.log("yes");
-// } else {
-//
-// console.log("no");
-// }
 
 // UI
 
@@ -20,6 +11,18 @@ $(document).ready(function () {
     var splitInput = (userInputVal).split('');
     console.log(splitInput);
 
+if (splitInput.includes("2")===true) {
+
+  console.log("yes");
+} else {
+
+  console.log("no");
+// if (includesTwo(splitInput)===true) {
+//   console.log("helolo");
+// } else {
+//   console.log("hi");
+
+}
     // console.log(userInputVal);
 
     // $('#stringInput').text(stringInput);
