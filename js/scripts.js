@@ -1,11 +1,14 @@
 // Business Logic
-var parsedUserInput = $(parseInt("#userInput"))
+var parsedUserInput = parseInt("#userInput")
 
 if (true) {
 
 } else {
 
 }
+var stringInput = parsedUserInput.toString();
+var splitInput = (stringInput).split('');
+
 
 // UI
 
@@ -14,11 +17,10 @@ $(document).ready(function () {
     event.preventDefault();
     var userInputVal = $("input#userInput").val();
 
-
+    $('#stringInput').text(stringInput);
     $("#answer").show();
-    $("#bbForm").hide();
-
-    console.log(userInputVal);
+    // $("#bbForm").hide();
 
   });
+
 });
