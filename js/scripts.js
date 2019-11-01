@@ -1,8 +1,6 @@
 // Business Logic
-// var parsedUserInput = parseInt("#userInput")
-// console.log(parsedUserInput);
-// var stringInput = parsedUserInput.toString();
-// var splitInput = (stringInput).split('');
+
+
 
 // function Computron
 // if (splitInput.includes("2")) {
@@ -19,8 +17,10 @@ $(document).ready(function () {
   $("form#bbForm").submit(function(event) {
     event.preventDefault();
     var userInputVal = $("input#userInput").val();
+    var splitInput = (userInputVal).split('');
+    console.log(splitInput);
 
-    console.log(userInputVal);
+    // console.log(userInputVal);
 
     // $('#stringInput').text(stringInput);
     $("#output").text(userInputVal);
