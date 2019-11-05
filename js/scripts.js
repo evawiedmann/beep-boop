@@ -1,29 +1,33 @@
 // Business Logic
-var splitInput = userInputVal.split('');
-var userInputVal = $("input#userInput").val();
-function minusOne(numbers){
-  var arrayAnswer = [" "];
-  numbers.forEach(function(number) {
-    var minOne = number - 1
-    arrayAnswer.push(newNum)
-  })
-  return arrayAnswer
-};
 
-// UI
-$(document).ready(function () {
+var userInputVal = $("input#userInput").val();
+var arrayAnswer = [];
+for (var i = 0; i <= userInputVal; i++) {
+  if (i===1) {
+    i==="Beep!"
+    arrayAnswer.push(i);
+  }
+  if (i===2) {
+    i==="Boop!"
+    arrayAnswer.push(i);
+  }
+  if (i===3) {
+    i==="I'm sorry, Dave. I'm afraid I can't do that."
+  }
+  arrayAnswer.push(i);
+  console.log(arrayAnswer);
+}
+
+// User Interface
+
+$(document).ready(function() {
   $("form#bbForm").submit(function(event) {
     event.preventDefault();
-    if (splitInput.includes("3")===true) {
-      $("#sorry").show();
-    } else if(splitInput.includes("2")===true) {
-      $("#boop").show();
-    } else if(splitInput.includes("1")===true) {
-      $("#beep").show();
-    } else {
-      // $("#answer").text(arrayAnswer);
-      $('#output').text(arrayAnswer);
-    }
-    $("#answer").show();
+    arrayAnswer.forEach(function() {
+      append(i);
+    });
+
+    // $('#output').text(arrayAnswer);
+    // $("#answer").show();
   });
 });

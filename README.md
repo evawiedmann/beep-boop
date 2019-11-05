@@ -15,8 +15,8 @@
   - Example Output: "Beep!"
 
 * #### The program returns "Boop!" when user input includes "2".
-  - Example Input: "2"
-  - Example Output: "Boop!"
+  - Example Input: "5"
+  - Example Output: "0", "Beep!", "Boop", "I'm Sorry...", 4, 5
 
 * ####  The program returns "I'm sorry, Dave. I'm afraid I can't do that." when user input includes "3".
   - Example Input: "3"
