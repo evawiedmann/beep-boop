@@ -1,21 +1,19 @@
 // Business Logic
 
-var userInputVal = $("input#userInput").val();
-var arrayAnswer = [];
-for (var i = 0; i <= userInputVal; i++) {
-  if (i===1) {
-    i==="Beep!"
-    arrayAnswer.push(i);
+function beepBoop(x) {
+  var arrayAnswer = [];
+  for (var i = 0; i <= x ; i++) {
+    if (i.toString().includes(3)) {
+      arrayAnswer.push("I'm sorry, Dave. I'm afraid I can't do that.");
+    } else if (i.toString().includes(2)) {
+      arrayAnswer.push("Boop!");
+    } else if (i.toString().includes(1)){
+      arrayAnswer.push("Beep!");
+    } else {
+      arrayAnswer.push(i);
+    }
   }
-  if (i===2) {
-    i==="Boop!"
-    arrayAnswer.push(i);
-  }
-  if (i===3) {
-    i==="I'm sorry, Dave. I'm afraid I can't do that."
-  }
-  arrayAnswer.push(i);
-  console.log(arrayAnswer);
+  return arrayAnswer
 }
 
 // User Interface
@@ -23,11 +21,15 @@ for (var i = 0; i <= userInputVal; i++) {
 $(document).ready(function() {
   $("form#bbForm").submit(function(event) {
     event.preventDefault();
-    arrayAnswer.forEach(function() {
-      append(i);
-    });
 
-    // $('#output').text(arrayAnswer);
-    // $("#answer").show();
+    var userInputVal = parseInt($("input#userInput").val());
+
+    var results = beepBoop(userInputVal);
+    $("#output").empty();
+    results.forEach(function(result){
+      $("#output").append(result + "<br>");
+    })
+    console.log(results);
+    $("#answer").show();
   });
 });

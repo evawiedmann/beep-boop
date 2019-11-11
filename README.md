@@ -1,14 +1,14 @@
 # _Beep Boop Machine_
 
-#### _Program that produces varied results depending upon the user's numerical input, 1 Nov 2019_
+#### _Program that produces varied results depending upon the user's numerical input, 10 Nov 2019_
 
 #### By _**Eva Wiedmann**_
 
 ## Description
 
 * #### The program returns a range of numbers from 0 to the users inputted number.
-  - Example Input: "4"
-  - Example Output: "0, 1, 2, 3, 4"
+  - Example Input: "5"
+  - Example Output: "0, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do that., 4, 5"
 
 * #### The program returns "Beep!" when user input includes "1".
   - Example Input: "1"
