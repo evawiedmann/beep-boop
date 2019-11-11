@@ -1,8 +1,3 @@
-#answer {
-  display: none;
-  padding: 60px;
-}
-
 body {
   font: small-caps bold 24px/1 sans-serif;  text-align: center;
   background-color: gray;
@@ -31,6 +26,10 @@ body {
   font-weight: bolder;
 }
 
-#bbForm {
-
+#answer {
+  border-style: dashed;
+  border-width: 5px;
+  border-color: red;
+  display: none;
+  padding: 30px;
 }

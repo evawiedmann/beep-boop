@@ -29,7 +29,6 @@ $(document).ready(function() {
     results.forEach(function(result){
       $("#output").append(result + "<br>");
     })
-    console.log(results);
     $("#answer").show();
   });
 });
