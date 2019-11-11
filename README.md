@@ -1,6 +1,6 @@
 # _Beep Boop Machine_
 
-#### _Program that produces varied results depending upon the user's numerical input, 10 Nov 2019_
+#### _Program that produces varied results depending upon the user's numerical input, 11 Nov 2019_
 
 #### By _**Eva Wiedmann**_
 
@@ -22,22 +22,17 @@
   - Example Input: "3"
   - Example Output: "I'm sorry, Dave. I'm afraid I can't do that."
 
-* #### The program
-  - Example Input:
-  - Example Output:
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Install web browser_
+* _Download Bootstrap and jQuery_
+* _Go to https://evawiedmann.github.io/beep-boop
 
 
 ## Known Bugs
 
-_ _
+_TBD_
 
 ## Support and contact details
 
